@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+#toast-container{
+    top: 90px !important;
+    right:20px !important;
+    left: auto !important;
+}

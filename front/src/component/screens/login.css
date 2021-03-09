@@ -1,0 +1,21 @@
+.loginpage, .signuppage{
+    margin: 50px auto;
+}
+
+.auth-card h2 {
+    font-family: 'Grand Hotel', cursive;
+}
+.auth-card h6 {
+    font-size: small;
+}
+.auth-card{
+    padding:20px;
+    text-align:center;
+    max-width:400px;  
+    margin: 10px auto;  
+}
+/*  */
+.auth-card input:focus{
+    border-bottom-color: rgb(6, 133, 236) !important;
+    box-shadow: 0 1px 0 0 rgb(6, 133, 236) !important;
+}

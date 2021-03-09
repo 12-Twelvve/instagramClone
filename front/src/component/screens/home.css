@@ -1,0 +1,33 @@
+.card-content input[type=text]:focus{
+    border-bottom-color: rgb(6, 133, 236) !important;
+    box-shadow: 0 1px 0 0 rgb(6, 133, 236) !important;
+}
+.homecard{
+    max-width: 500px;
+    margin: 30px auto;
+    height: max-content;
+}
+.homecard h5 a {
+    font-weight: bold;
+    letter-spacing:1px;
+    margin-left: 10px;
+    padding: 5px;
+    color:gray
+}
+.homecard .card-content span{
+    margin-left: 9px;
+    vertical-align:top;
+}
+
+/* createPost */
+.createpost input[type=text]:focus{
+    border-bottom-color: rgb(6, 133, 236) !important;
+    box-shadow: 0 1px 0 0 rgb(6, 133, 236) !important;
+}
+.createpost{
+    max-width: 500px;
+    margin: 30px auto;
+    margin-bottom: 50px !important;
+    padding: 20px;
+    text-align: center;
+}

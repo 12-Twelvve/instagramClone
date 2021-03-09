@@ -1,0 +1,41 @@
+.profilepage{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.profilepage .profilepicture img{
+    width: 160px;
+     height:160px;
+    object-fit: cover;
+    object-position: center;
+}
+@media(max-width: 600px){
+    .profilepicture img{
+        width: 90px !important;
+        height: 90px !important;
+    }
+    .profilecontent div h6{
+        font-size:12px !important
+    }
+}
+
+.profilegallary{
+    position: relative;   
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.profilegallary>div{
+    position: relative;
+}
+.profilegallary img{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+}
+.profilegallary .item{
+    margin-bottom: 30px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.801);
+}
